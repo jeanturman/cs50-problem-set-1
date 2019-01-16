@@ -5,9 +5,9 @@ int main(void) {
     int height;
     
     do {
-        height = get_int("Please enter the desired height of structure: ");
+        height = get_int("Please enter the desired height of structure, no greter than 20: ");
     } 
-        while (height > 15 || height < 0);
+        while (height > 21 || height < 0);
     
     for(int i = height; i >= 1; i--) {
         for(int j = 0; j <= height; j++)
@@ -19,3 +19,5 @@ int main(void) {
         printf("\n");
     }
 }
+
+    
