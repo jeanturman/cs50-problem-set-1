@@ -1,0 +1,3 @@
+get amount for the item x
+get amount of money user gives y
+calculate change needed y-x = change
